@@ -1,0 +1,25 @@
+/* AID 웹뷰 필수 전역 설정 (dodam-docs/aid/getting-started) */
+html,
+body {
+  touch-action: pan-y pan-x;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, 'Apple SD Gothic Neo', sans-serif;
+  background: #f0f4f8;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

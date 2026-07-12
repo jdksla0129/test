@@ -1,0 +1,68 @@
+.card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 40px 48px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  min-width: 300px;
+}
+
+h1 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.location {
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 24px;
+}
+
+.grade {
+  font-size: 56px;
+  margin-bottom: 8px;
+}
+
+.label {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.values {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.value-box {
+  text-align: center;
+}
+
+.value-box .name {
+  font-size: 12px;
+  color: #888;
+}
+
+.value-box .num {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+}
+
+.value-box .unit {
+  font-size: 11px;
+  color: #aaa;
+}
+
+.status {
+  font-size: 13px;
+  color: #aaa;
+  margin-top: 20px;
+}
+
+.good { color: #2f9e44; }
+.moderate { color: #f59f00; }
+.bad { color: #e8590c; }
+.worst { color: #c92a2a; }
